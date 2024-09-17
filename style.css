@@ -1,0 +1,55 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body{
+    background-image: url("https://img.odcdn.com.br/wp-content/uploads/2021/04/Via-Lactea.jpg");
+    color: var(--botao-azul);
+}
+
+header {
+
+    color: var(--cinza-secundario);
+
+}
+
+* {
+    margin: o;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("https://professorcarioca.github.io/fisicaflix/Aulas-de-F%C3%ADsica.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.container {
+    height: 70vh;
+
+}
+
+.container__botao {
+    background-color: transparent var(--botao-azul);
+    border-radius: 5px;
+    border: 2px solid var(--branco-principal);
+    padding: 1em;
+    color:  var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    height: 8vh;
+    width:15vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid var(--branco-principal)
+}
