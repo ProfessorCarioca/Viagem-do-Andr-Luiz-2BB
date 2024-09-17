@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Física, Tecnologia  e Jogos. </title>
-    <link rel="stylesheet" href="style.css">
+    <title>Boa Viagem</title>
+    <link rel="stylesheet" href="style.css" >
 </head>
-
 <body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p><h1>Um dia desses, dentro de um livro da biblioteca da escola, descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</h1></p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
+            <img src="https://wallpapercave.com/wp/cmdkr6o.jpg">
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
 
-    <header>
-        <h1>Bem vindo ao Física, Tecnologia  e Jogos.</h1>
+        <div class="passo" id="passo-3">
+            <button class="btn-proximo" data-proximo="0">Voltar</button>
+            <img src="https://i0.wp.com/mundodosviajantes.com/wp-content/uploads/2016/11/Trilha-pedra-Bonita.jpg?fit=1018%2C676&ssl=1">
+         </div>
+
+         <div class="passo" id="passo-2">
+            <button class="btn-proximo" data-proximo="0">Voltar</button>
+            <img src="https://c4.wallpaperflare.com/wallpaper/109/834/324/island-fernando-de-noronha-beach-brazil-pernambuco-hd-wallpaper-preview.jpg">
+         </div>
         
-        <h2> 
-            <p>Não há conhecimento que não tem poder.</p></h2>
-    </header>
+        </main>
+        <script src="script.js"></script>
     
-    <section class="container principal">
-        <div>
-        <h1><p>Aqui eu compartilho conhecimento</p></h1>
-       <! <img src="https://avatars.githubusercontent.com/u/169007157?v=4" alt="Professor Marcelo">
-       <a href="https://professorcarioca.github.io/fisicaflix/" class="container__botao">Vídeos de Física</a>
-       <a href="https://professorcarioca.github.io/Estorinha-de-viagem-/" class="container__botao botao_secundario">Estória com Jogos</a>
-       <a href="https://professorcarioca.github.io/BibliaThiago2BB/" class="container__botao botao_secundario">Versículos Bíblicos</a>
-
-    </div>
-    </section>
-
 </body>
 </html>
