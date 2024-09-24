@@ -9,11 +9,13 @@
 body{
     background-image: url(https://ceabbrasil.com.br/blog/wp-content/uploads/2024/01/Design-sem-nome.jpg);
     color: purple;
+    width: 90%;
+    height: 90%;
 }
 
 img {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
 }
 
 button {
